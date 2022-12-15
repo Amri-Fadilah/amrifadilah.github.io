@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'NerkoOne-Reguler';
+    src: url(/font/NerkoOne-Regular.ttf);
+}
+* {
+    margin: 0px;
+    pad: 0px;
+}
+/*Navbar*/
+
+.main {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px; 
+    display: flex; 
+    line-height: 80px;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+    border-bottom: 1px solid #434242;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #434242;
+    font-size: 70px;
+    font-family: 'NerkoOne-Reguler';
+    padding-left: 20px;
+    float: left;
+    margin-top: 20px;
+    font-weight: normal;
+    margin-left: 50px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 400px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.search {
+    width: 270px;
+    float: left;
+    margin-left: 130px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 23px;
+    color: gray;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 25%;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 23px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+/*kontent*/
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+img {
+    width: 800px;
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    color: #434242;
+    font-family: 'NerkoOne-Reguler';
+}
+
+h2 {
+    font-family: 'NerkoOne-Reguler';
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #434242;
+    line-height: 50px;  
+}
+
+a.lanjut {
+    background-color: #ff7200;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+a.lanjut:hover {
+    background-color: #434242;
+}
+
+/*features products*/
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.small-container .row {
+    display: flex;
+}
+
+.col-4 {
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    flex-basis: 25%;
+    transition: 0.5s ease;
+}
+
+.col-4 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 80px;
+    color: #434242;
+}
+
+.title::after {
+    content: '';
+    background: #ff7200;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: #434242;
+    font-weight: normal;
+    font-family: Impact, sans-serif;
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.rating .fa {
+    color: #ff7200;
+}
+
+.col-4:hover {
+    transform: translateY(-10px);
+}
+/*finish features products*/
+
+/*tutor*/
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'NerkoOne-Regular';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #434242;
+}
+/*finish tutor*/
+
+/*footer*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100w;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+
+ .footer-menu{
+    float: right;
+    margin-right: 30px;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+
+  @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
+
+    /*finish footer*/
